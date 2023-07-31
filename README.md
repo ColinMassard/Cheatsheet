@@ -79,9 +79,7 @@ CSS Part
 
 Html Example: 
 ``` html
-<div class="w-container mx-auto anim--cascad"
-  id="macy-container"
-  data-animate="">
+<div class="w-container mx-auto anim--cascad" id="macy-container" data-animate="">
   {% for article in articles %}
     <div class="demo anim-fade-up delay"></div>
   {% endfor %}
