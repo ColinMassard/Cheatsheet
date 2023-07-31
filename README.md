@@ -83,8 +83,7 @@ Html Example:
   id="macy-container"
   data-animate="">
   {% for article in articles %}
-  <div class="demo anim-fade-up delay">
-    {% endfor %}
-  </div>
+    <div class="demo anim-fade-up delay"></div>
+  {% endfor %}
 </div>
 ```
