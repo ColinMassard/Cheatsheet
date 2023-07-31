@@ -12,6 +12,7 @@ let texture = new THREE.Texture(image)
 ```
 
 ## Reveal Animations.
+Javascript Module part
 ```js
 export function animation() {
     const element = document.querySelectorAll('[data-animate]');
@@ -33,6 +34,8 @@ export function animation() {
     element.forEach(animateElement => intersectionObserverScroll.observe(animateElement));
 }
 ```
+
+CSS Part
 ```css
 
 @mixin transitionDelayPop($default, $step, $firstStep, $lastStep) {
@@ -72,4 +75,16 @@ export function animation() {
 .delay {
     transition-delay: 180ms;
 }
+```
+
+Html Example: 
+``` html
+<div class="w-container mx-auto anim--cascad"
+  id="macy-container"
+  data-animate="">
+  {% for article in articles %}
+  <div class="demo anim-fade-up delay">
+    {% endfor %}
+  </div>
+</div>
 ```
