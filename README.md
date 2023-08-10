@@ -85,3 +85,17 @@ Html Example:
   {% endfor %}
 </div>
 ```
+
+## Img setup
+```sass
+.img-cover
+  height: 100%
+  width: 100%
+  object-fit: cover
+
+
+.img-contain
+  height: 100%
+  width: auto
+  object-fit: contain
+```
