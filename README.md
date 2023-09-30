@@ -1,5 +1,22 @@
 # Cheatsheet THREE/WebGL errors
 
+## Shaders Documentation 
+### Shaderific documentation
+https://shaderific.com/glsl.html
+
+Shaderific is an iOS application that lets you play with GLSL. The application is not something to care about, but the documentation isn't too bad.
+
+### Kronos Group OpenGL reference pages
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/indexflat.php
+
+This documentation deals with OpenGL, but most of the standard functions you'll see will be compatible with WebGL. Let's not forget that WebGL is just a JavaScript API to access OpenGL.
+
+### Book of shaders documentation
+https://thebookofshaders.com/
+
+The book of shaders mainly focus on fragment shaders and has nothing to do with Three.js but it is a great resource to learn and it has its own glossary.
+
+
 ## WebGL-00007B58032CA300] GL_INVALID_VALUE: Offset overflows texture dimensions.
 ```js
 // DO not use this. This function is deprecated 
@@ -99,3 +116,4 @@ Html Example:
   width: auto
   object-fit: contain
 ```
+
